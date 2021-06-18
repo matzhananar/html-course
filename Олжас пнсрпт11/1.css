@@ -1,0 +1,16 @@
+body{
+	background-color: lightgreen;
+}
+
+h1{
+	background-color: aquamarine;
+	color: burlywood;
+	text-align: center;
+	font-size: 300%;
+}
+
+p{
+	background-color: lightyellow;
+	font-family: courier;
+	color: lightpink;
+}

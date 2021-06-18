@@ -1,0 +1,7 @@
+body {
+  background-image: url("moon.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 500px;
+  background-size: 800px;
+}
