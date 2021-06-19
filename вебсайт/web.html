@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flowers Web-Site</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="header">
+            <div class="inside">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <a href=""><span class="glyphicon glyphicon-search"></span></a>
+                </div>
+                <div class="center">
+                    <h1>Blossom</h1>
+                    <p>A L M A T Y</p>
+                </div>
+                <div class="quick-access">
+                    <ul class="links">
+                        <li class="first" onclick="authorization()">
+                            <a class="active" href="#myaccount"><span class="glyphicon glyphicon-user"></span>My Account</a>
+                        </li>
+                        <li class="last" onclick="basket()">
+                            <a href="#mycart"><span class="glyphicon glyphicon-shopping-cart"></span>My Cart</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="auth_form">
+                    <div class="auth_inside">
+                        <p class="auth_title">Sign in</p>
+                        <label class="auth_label">Email</label>
+                        <input type="email" class="auth_input"/>
+                        <label class="auth_label">Password</label>
+                        <input type="password" class="auth_input"/>
+                        <p>Forgot password?</p>
+                        <div class="auth_btn" onclick="authorization()"><span>Sign in</span></div>
+                        <p>Not signed yet</p>
+                    </div>
+                </div>
+                <div id="basket">
+                    <div class="basket_inside">
+                        <p>No items in the cart</p>
+                        <div class="basket_btn" onclick="basket()"><span>Start shopping</span></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="navbar">
+            <ul>
+                <li><a href="#flw-shop">Flowers</a></li>
+                <li><a href="#pln-shop">Plants</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="https://www.instagram.com/zzhibeek/?igshid=1aqrpe6ekyp32">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="image">
+        <div class="image_shadow"></div>
+        <div class="content">
+            <p>INTRODUCING <br/><span class="title">THE SPRING EDIT</span></p>
+            <span class="subtitle">Send some springtime joy with our collection of <br/>beautiful seasonal blooms</span>
+        </div>
+        <div class="image_btn"><p>ORDER NOW</p></div>
+    </div>
+    <div class="inside">
+        <h4 id="flw-shop">FLOWER SHOP</h4>
+        <div class="flowers">
+            <div class="flower_item">
+                <div class="flower_photo" id="one"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Colourful Summer Bouquet</p>
+                <div class="button"><p>$45</p></div>
+            </div>
+            <div class="flower_item">
+                <div class="flower_photo" id="two"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Bright Summer Flower Letterbox</p>
+                <div class="button"><p>$40</p></div>
+            </div>
+            <div class="flower_item">
+                <div class="flower_photo" id="three"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Majestic Summer Bouquet</p>
+                <div class="button"><p>$25</p></div>
+            </div>
+            <div class="flower_item">
+                <div class="flower_photo" id="four"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Bouquet of the Month</p>
+                <div class="button"><p>$50</p></div>
+            </div>
+            <div class="flower_item">
+                <div class="flower_photo" id="five"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Lilac Blush Bouquet</p>
+                <div class="button"><p>$30</p></div>
+            </div>
+            <div class="flower_item">
+                <div class="flower_photo" id="six"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Rose & Seathistle Bouquet</p>
+                <div class="button"><p>$35</p></div>
+            </div>
+        </div>
+        <h4 id="pln-shop">PLANT SHOP</h4>
+        <div class="plants">
+            <div class="plant_item">
+                <div class="plant_photo" id="one-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Summer Flowering Basket</p>
+                <div class="button"><p>$20</p></div>
+            </div>
+            <div class="plant_item">
+                <div class="plant_photo" id="two-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Large Summer Garden Planter</p>
+                <div class="button"><p>$45</p></div>
+            </div>
+            <div class="plant_item">
+                <div class="plant_photo" id="three-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Wrapped Oriental Lily</p>
+                <div class="button"><p>$25</p></div>
+            </div>
+            <div class="plant_item">
+                <div class="plant_photo" id="four-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Phalaenopsis Orchid</p>
+                <div class="button"><p>$30</p></div>
+            </div>
+            <div class="plant_item">
+                <div class="plant_photo" id="five-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Calathea on Stand</p>
+                <div class="button"><p>$15</p></div>
+            </div>
+            <div class="plant_item">
+                <div class="plant_photo" id="six-pl"></div>
+                <div class="bottom"><p>Free delivery</p></div>
+                <p class="title">Flowering Lavender</p>
+                <div class="button"><p>$40</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <table>
+            <tbody>
+                <tr>
+                    <td >
+                        <img src="./images/about-us-photo.jpg" style="width: 350px; height: 480px;">
+                    </td>
+                    <td width="8%">&nbsp;</td>
+                    <td>
+                        <h4 id="about">ABOUT US</h4>
+                        <p>&nbsp;</p>
+                        <p id="text">Our flower company Blossom Almaty is glad to present you a variety of bouquets to please <br>
+                        yourself,  loved ones, relatives and friends.<br> 
+                        
+                        Blossom Almaty believe that everyone should have a little luxury in their life. We apply the <br>
+                        same level of care and attention in our customer service as we do in selecting and<br>
+                        arranging our luxury flowers. We want to make sure your recipient is delighted with<br>
+                        their gift and you are a 100% happy. As we continue to grow, we want to make sure all of <br>
+                        our products are as sustainable as possible. We buy our flowers from British & Kenyan <br>
+                        farms and put back into the community. Only the very best stems are carefully selected, <br>
+                        arranged and packaged by our highly experiezced florists who lovingly hand-tie each <br>
+                        bouquet with a black satin ribbon, ready to surprise and delight our customers.<br><br>
+        
+                        If you feel something isn't right, our friendly Customer Experience team are available <br> 
+                        to chat via email, or on the phone, and love to go the extra mile to ensure you're happy.<br><br>
+                        Respectfully, the owner of the store Zhibek K</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="container-fluid mt-5">
+            <div class="card mx-5">
+                <div class="row mb-4 ">
+                    <div class="col-md-4 col-sm-11 col-xs-11">
+                        <div class="footer-text pull-left">
+                            <div class="d-flex">
+                                <h1 style="color: deeppink;">Blossom</h1>
+                            </div>
+                            <p class="card-text">Online shop for compositions of live and artificial flowers, 
+                                baskets, vases, pots and other interior attributes.<br>
+                                Telephone number: +7 777 723 17 26<br>
+                                Address: Dostyk Avenue, 54, ALMATY
+                            </p>
+                            <div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> 
+                                <i class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> 
+                                <i class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+                    <div class="col-md-2 col-sm-4 col-xs-4">
+                        <h4 class="heading">Services</h4>
+                        <ul>
+                            <li>Delivery</li>
+                            <li>Questions</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4">
+                        <h4 class="heading">Industries</h4>
+                        <ul class="card-text">
+                            <li>Finance</li>
+                            <li>Public Sector</li>
+                            <li>Smart Office</li>
+                            <li>Retail</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-4">
+                        <h4 class="heading">Company</h4>
+                        <ul class="card-text">
+                            <li>Flowers</li>
+                            <li>Plants</li>
+                            <li>About us</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="divider mb-4"> </div>
+                <div class="row" style="font-size:10px; ">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="pull-left">
+                            <p><i class="fa fa-copyright">Blossom Inc. All Rights Reserved. 2021 </i></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="pull-right mr-4 d-flex policy">
+                            <li>Terms of Use</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookie Policy</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+p {
+   background-image: url("paper.jpg");
+   background-repeat: no-repeat;
+   background-position: right top;
+   background-attachment: scroll
+;}
+div {
+  background: rgba(255,192,203,1);
+}
+
+div.first {
+  background:  rgba(255,192,203,0.1);
+}
+
+div.second {
+  background:  rgba(255,192,203,0.3);
+}
+
+div.third {
+  background:  rgba(255,192,203,0.6);
+}
