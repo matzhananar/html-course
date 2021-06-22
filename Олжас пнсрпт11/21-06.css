@@ -1,0 +1,38 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	background-color: lightgreen;
+	color: yellow;
+	padding: 30px;
+	border: 5px solid lightgreen;
+}
+p{
+	background-color: lightgreen;
+	border: 7px solid lightyellow;
+	padding: 40px;
+	margin: 50px;
+}
+a{
+	margin: 40px;
+	font-family: verdana;
+}
+
+#a1{
+	font-family: courier;
+} 
+#Hall{
+	font-family: courier;
+}
+.right{
+	text-align: right;
+}
+*{
+	text-align: right;
+	background-color: pink;
+	font-family: courier;
+
+}
+h1,  a{
+	color:  red;
+}
