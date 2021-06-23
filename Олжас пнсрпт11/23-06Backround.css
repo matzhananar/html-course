@@ -8,6 +8,6 @@ p{
 }
 body{
     background-image: url("https://w-dog.ru/wallpapers/1/17/468843843976118.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*repeat-x по горизонтали, repeat-y по вертикали*/
     background-size: 100%;
 }

@@ -1,0 +1,17 @@
+h1{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/British_Museum_Reading_Room_Section_Feb_2006.jpg/389px-British_Museum_Reading_Room_Section_Feb_2006.jpg");
+	background-size: 100%;
+	padding: 150px;
+	margin-top: 250px;
+}
+img{
+	margin-top: 100px;
+}
+
+#img1{
+	margin-left: 150px;
+}
+
+#img2, #img3{
+	margin-left: 100px;
+}
