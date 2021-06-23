@@ -1,0 +1,13 @@
+h1{
+    background-color: bisque;
+    opacity: 0.5;
+}
+
+p{
+    background-color: rgba(65, 214, 135, 0.3);
+}
+body{
+    background-image: url("https://w-dog.ru/wallpapers/1/17/468843843976118.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
