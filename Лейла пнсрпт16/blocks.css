@@ -1,0 +1,49 @@
+.image{
+	background-image: url("https://p4.wallpaperbetter.com/wallpaper/930/541/117/flowers-background-pink-pink-flowers-hd-wallpaper-preview.jpg");
+	padding: 50px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+.shadow{
+	background-color: rgba(0, 0, 0, 0.3);
+	border-color:rgba(0, 0, 0, 1) ;
+    top:300px;
+    padding:100px ;
+	font-size: 20px;
+    filter: blur(50px);
+    
+    border-radius: 300px;
+}
+p{
+	color: black;
+}
+ul{
+	margin-top: 20px;
+	padding: 0px;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+li{
+	width: 19%;
+	float: left;
+	border: 1px solid #A55D4E;
+	background-color: #C36A58;
+}
+
+li a {
+	display: block;
+	padding: 16px;
+	text-align: center;
+}
+
+li a:hover{
+	background-color: #A75342;
+	text-decoration: underline;
+}
+
+.diff{
+	color: green;
+}

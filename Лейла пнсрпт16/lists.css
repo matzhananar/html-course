@@ -1,0 +1,14 @@
+.b{
+	list-style-type: circle;
+}
+.c{
+	list-style-type: square;
+}
+
+.e{
+	list-style-type: upper-roman;
+}
+.f{
+	list-style-type: lower-alpha;
+}
+
