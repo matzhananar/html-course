@@ -1,0 +1,38 @@
+.firstnav{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.secnav{
+	padding-left: 20px;
+	width: 100%;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li{
+	width: 15%;
+	float: left;
+	border: 1px solid grey;
+
+}
+li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+
+}
+
+
+far{
+	margin: 10px;
+}
+
+#big{
+	width: 25%;
+}
+

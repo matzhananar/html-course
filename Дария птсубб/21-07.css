@@ -1,0 +1,14 @@
+img{
+	width: 100%;
+	height: auto;
+	opacity: 0.3;
+}
+.topleft{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+    font-size: 20px;
+}
+.container{
+	position: relative;
+}

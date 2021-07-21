@@ -1,0 +1,30 @@
+input[type = text]{
+	width: 25%;
+	box-sizing: border-box;
+	padding: 12px 20px 12px 40px; 
+	margin: 8px 0px;
+	font-size: 16px;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	border: 2px solid lightblue;
+	outline: none;
+	border-radius: 4px;
+	background-image: url(search.png);
+	background-size: 20px;
+	resize: none;
+}
+textarea{
+	width: 50%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+input[type="text"]:focus{
+	background-color: lightblue;
+	width: 100%;
+
+}

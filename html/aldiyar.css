@@ -1,0 +1,15 @@
+body {
+	background-color: lightgreen;
+	background-image: url("shutterstock_1026587752.jpg");
+	background-repeat: no-repeat;
+	
+}
+p{
+	font-size: 30px;
+	font-family: verdana ;
+	color: #A7412C;
+}
+h1{
+	color: #73A220;
+	font-family: Arial;
+}
