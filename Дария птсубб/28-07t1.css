@@ -1,0 +1,8 @@
+div{
+	background-color: yellow;
+
+}
+div::after{
+	content: "Look at this now";
+	background-color: red;
+}
